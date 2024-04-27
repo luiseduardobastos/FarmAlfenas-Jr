@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/output.css" />
+    <title>FarmAlfenas Jr.</title>
+  </head>
+
+  <body>
+    <!-- Header 1 -->
+    <header class="w-full flex items-center justify-between p-3 lg:px-[10%]">
+      <div class="flex flex-row items-center gap-2">
+        <img src="./assets/logo.png" alt="Logo FarmAlfenas Jr." />
+        <h2 class="text-lg">FarmAlfenas Jr.</h2>
+      </div>
+
+      <div class="hidden md:flex md:items-center gap-3">
+        <a href="#">Home</a>
+        <a href="#">Quem somos</a>
+        <a href="#">Serviços</a>
+        <a href="#">Clientes</a>
+        <a href="#">Contato</a>
+        <a class="bg-blue-900 text-white p-2 rounded-md" href="#"
+          >Faça seu orçamento</a
+        >
+      </div>
+
+      <div class="md:hidden">
+        <i class="fa-solid fa-bars text-2xl"></i>
+      </div>
+    </header>
+
+    <!-- Header 2 -->
+    <section class="w-full h-[420px] bg-home bg-cover bg-center">
+      <div class="w-full h-full flex flex-col items-center justify-center">
+        <h1 class="text-orange-500 text-5xl font-bold pb-5">FarmAlfenas Jr.</h1>
+        <h2 class="text-lg text-white">
+          A sua empresa de rotulagem nutricional!
+        </h2>
+        <button class="bg-orange-500 mt-5 p-2 text-white rounded-lg">
+          Faça seu orçamento
+        </button>
+      </div>
+    </section>
+
+    <main>
+      <!-- Quem Somos -->
+      <section
+        class="w-full h-full flex flex-col items-center justify-center my-10 gap-4"
+      >
+        <h2 class="text-orange-500 text-5xl font-bold pb-5">Quem somos</h2>
+        <div
+          class="md:w-[75%] 2xl:w-[60%] flex flex-col md:flex-row items-center justify-center"
+        >
+          <img
+            class="w-[60%] max-w-[400px] m-auto pb-5"
+            src="./assets/equipe.png"
+            alt="Equipe"
+          />
+          <p class="text-center text-lg px-10">
+            Na FarmAlfenas Jr., cada membro é um ingrediente vital para o
+            sucesso. Combinando habilidades diversas, eles garantem precisão e
+            clareza em cada rótulo nutricional. Mas não se trata apenas de
+            trabalho sério; é também sobre cultivar um ambiente de camaradagem e
+            colaboração. Aqui, nutrimos não apenas corpos, mas também mentes.
+          </p>
+        </div>
+      </section>
+
+      <!-- Vantagens -->
+      <section
+        class="w-full h-full flex flex-col items-center justify-center my-10 gap-4"
+      >
+        <h2 class="text-blue-900 text-5xl font-bold pb-5">Vantagens</h2>
+        <div
+          class="md:w-[75%] 2xl:w-[60%] flex flex-col md:flex-row items-center justify-center gap-5"
+        >
+          <div
+            class="w-[250px] h-[350px] gap-5 px-5 border rounded-md border-blue-900 flex flex-col items-center justify-center"
+          >
+            <img
+              class="w-[80px]"
+              src="./assets/moedas 1.png"
+              alt="Preço abaixo do mercado"
+            />
+            <h2 class="text-lg font-bold text-center text-blue-900">
+              Preço abaixo do mercado
+            </h2>
+            <p class="text-center">
+              Oferecendo qualidade sem pesar no bolso: nosso preço abaixo do
+              mercado é o segredo para tornar a saúde acessível a todos.
+            </p>
+          </div>
+          <div
+            class="w-[250px] h-[350px] gap-5 px-5 border rounded-md border-blue-900 flex flex-col items-center justify-center"
+          >
+            <img
+              class="w-[80px]"
+              src="./assets/editar 1.png"
+              alt="Projetos personalizados"
+            />
+            <h2 class="text-lg font-bold text-center text-blue-900">
+              Projetos personalizados
+            </h2>
+            <p class="text-center">
+              Cada rótulo é uma obra-prima única: nossos projetos personalizados
+              refletem a singularidade de cada produto e marca.
+            </p>
+          </div>
+          <div
+            class="w-[250px] h-[350px] gap-5 px-5 border rounded-md border-blue-900 flex flex-col items-center justify-center"
+          >
+            <img
+              class="w-[80px]"
+              src="./assets/conhecimento 1.png"
+              alt="Conhecimento técnico"
+            />
+            <h2 class="text-lg font-bold text-center text-blue-900">
+              Conhecimento técnico
+            </h2>
+            <p class="text-center">
+              Nossa equipe é movida por uma paixão inabalável pelo conhecimento
+              técnico, garantindo precisão e confiabilidade em cada análise.
+            </p>
+          </div>
+        </div>
+        <div
+          class="md:w-[75%] 2xl:w-[60%] flex flex-col md:flex-row items-center justify-center gap-5"
+        >
+          <div
+            class="w-[250px] h-[350px] gap-5 px-5 border rounded-md border-blue-900 flex flex-col items-center justify-center"
+          >
+            <img class="w-[80px]" src="./assets/etica 1.png" alt="Ética" />
+            <h2 class="text-lg font-bold text-center text-blue-900">Ética</h2>
+            <p class="text-center">
+              Transparência e integridade estão no cerne de tudo o que fazemos:
+              nossa ética é o alicerce sobre o qual construímos relacionamentos
+              sólidos.
+            </p>
+          </div>
+          <div
+            class="w-[250px] h-[350px] gap-5 px-5 border rounded-md border-blue-900 flex flex-col items-center justify-center"
+          >
+            <img
+              class="w-[80px]"
+              src="./assets/educacao 1.png"
+              alt="Investimento em educação"
+            />
+            <h2 class="text-lg font-bold text-center text-blue-900">
+              Investimento em educação
+            </h2>
+            <p class="text-center">
+              O conhecimento é a chave para um futuro mais saudável: investimos
+              não apenas em negócios, mas também na educação sobre nutrição.
+            </p>
+          </div>
+        </div>
+        <button class="bg-blue-900 mt-5 p-2 px-4 text-white rounded-lg">
+          Saiba mais sobre o <br />
+          Movimento Empresa Júnior
+        </button>
+      </section>
+
+      <!-- Contato -->
+      <section
+        class="w-full h-full bg-contato bg-cover bg-center flex flex-col items-center justify-center my-10 py-8 gap-4"
+      >
+        <h2 class="text-orange-500 text-2xl font-bold text-center">
+          Entre em contato conosco!
+        </h2>
+        <div
+          class="md:w-[75%] 2xl:w-[60%] flex flex-col md:flex-row items-center justify-center"
+        >
+          <img
+            class="w-[80%] max-w-[400px] 2xl:max-w-[500px] 2xl:max-h-[455px]"
+            src="./assets/equipe.png"
+            alt="Equipe"
+          />
+          <div
+            class="bg-blue-900 w-[80%] max-w-[400px] 2xl:max-w-[500px] h-[365px] 2xl:h-[455px] flex flex-col items-center justify-center"
+          >
+            <form
+              class="flex flex-col items-center justify-center"
+              action="#"
+              method="post"
+            >
+              <label class="text-white" for="nome">Nome Completo:</label>
+              <input
+                class="rounded-lg lg:w-[180%]"
+                type="text"
+                id="nome"
+                name="nome"
+                required
+              />
+
+              <label class="text-white" for="telefone">Telefone:</label>
+              <input
+                class="rounded-lg lg:w-[180%]"
+                type="tel"
+                id="telefone"
+                name="telefone"
+                required
+              />
+
+              <label class="text-white" for="email">Email:</label>
+              <input
+                class="rounded-lg lg:w-[180%]"
+                type="email"
+                id="email"
+                name="email"
+                required
+              />
+
+              <label class="text-white" for="mensagem">Mensagem:</label>
+              <input
+                class="rounded-lg lg:w-[180%]"
+                type="text"
+                id="mensagem"
+                name="mensagem"
+                required
+              />
+
+              <button
+                class="bg-orange-500 mt-5 p-2 text-white rounded-lg"
+                type="submit"
+              >
+                Enviar
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer
+        class="w-full h-full bg-blue-900 flex flex-col items-center justify-center mt-10 py-10 gap-10 text-white"
+      >
+        <div class="flex flex-col md:flex-row md:gap-16">
+          <div class="pb-5">
+            <h2 class="text-2xl">Atendimento</h2>
+            <span><i class="fa-brands fa-whatsapp"></i> (31) 9xxxx-xxxx</span>
+            <br />
+            <span
+              ><i class="fa-regular fa-envelope"></i>
+              farmalfenasjunior@gmail.com</span
+            >
+          </div>
+          <div class="pb-5">
+            <h2 class="text-2xl">Redes Sociais</h2>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <div>
+            <h2 class="text-2xl">Endereço</h2>
+            <span
+              ><i class="fa-regular fa-envelope"></i> Rua Gabriel Monteiro da
+              Silva, 700 <br />Centro – Alfenas/MG, <br />Prédio S - 310.</span
+            >
+          </div>
+        </div>
+
+        <div>
+          <div class="flex flex-row">
+            <img src="./assets/logo.png" alt="Logo FarmAlfenas Jr." />
+            <img src="./assets/logoEmpresas.png" alt="Logo FarmAlfenas Jr." />
+          </div>
+          <br />
+          <hr />
+          <br />
+          <span class="flex items-center justify-center gap-1"
+            ><i class="fa-regular fa-copyright"></i> 2024 FARMALFENAS
+            JÚNIOR</span
+          >
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
