@@ -38,15 +38,57 @@
 
   <body>
     <!-- Header 1 -->
-    <header class="w-full flex items-center justify-between p-3 lg:px-[10%]">
-      <div class="flex flex-row items-center gap-2">
-        <a href="index.html"
-          ><img src="./assets/logo.png" alt="Logo FarmAlfenas Jr."
-        /></a>
-        <a href="index.html"><h2 class="text-lg">FarmAlfenas Jr.</h2></a>
+    <header class="w-full p-3 lg:px-[10%]">
+      <div class="flex items-center justify-between">
+        <div class="flex flex-row items-center gap-2">
+          <a href="index.html"
+            ><img src="./assets/logo.png" alt="Logo FarmAlfenas Jr."
+          /></a>
+          <a href="index.html"><h2 class="text-lg">FarmAlfenas Jr.</h2></a>
+        </div>
+
+        <div class="hidden md:flex md:items-center gap-3">
+          <a
+            href="index.html"
+            class="hover:border-b hover:border-1 hover:border-blue-900 duration-200"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="hover:border-b hover:border-1 hover:border-blue-900 duration-200"
+            >Quem somos</a
+          >
+          <a
+            href="#"
+            class="hover:border-b hover:border-1 hover:border-blue-900 duration-200"
+            >Serviços</a
+          >
+          <a
+            href="#"
+            class="hover:border-b hover:border-1 hover:border-blue-900 duration-200"
+            >Clientes</a
+          >
+          <a
+            href="#"
+            class="hover:border-b hover:border-1 hover:border-blue-900 duration-200"
+            >Contato</a
+          >
+          <a
+            class="bg-blue-900 text-white p-2 rounded-md hover:bg-blue-950 hover:cursor-pointer"
+            id="btn-abrir-contato"
+            >Faça seu orçamento</a
+          >
+        </div>
+
+        <div class="md:hidden" id="btn-abrir-nav">
+          <i class="fa-solid fa-bars text-2xl"></i>
+        </div>
+        <div class="md:hidden hidden" id="btn-fechar-nav">
+          <i class="fa-solid fa-x text-2xl"></i>
+        </div>
       </div>
 
-      <div class="hidden md:flex md:items-center gap-3">
+      <div class="hidden flex-col items-end justify-end gap-3" id="nav-cel">
         <a
           href="index.html"
           class="hover:border-b hover:border-1 hover:border-blue-900 duration-200"
@@ -77,10 +119,6 @@
           id="btn-abrir-contato"
           >Faça seu orçamento</a
         >
-      </div>
-
-      <div class="md:hidden">
-        <i class="fa-solid fa-bars text-2xl"></i>
       </div>
     </header>
 
