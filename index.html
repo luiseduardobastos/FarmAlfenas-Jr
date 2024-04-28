@@ -40,19 +40,41 @@
     <!-- Header 1 -->
     <header class="w-full flex items-center justify-between p-3 lg:px-[10%]">
       <div class="flex flex-row items-center gap-2">
-        <img src="./assets/logo.png" alt="Logo FarmAlfenas Jr." />
-        <h2 class="text-lg">FarmAlfenas Jr.</h2>
+        <a href="index.html"
+          ><img src="./assets/logo.png" alt="Logo FarmAlfenas Jr."
+        /></a>
+        <a href="index.html"><h2 class="text-lg">FarmAlfenas Jr.</h2></a>
       </div>
 
       <div class="hidden md:flex md:items-center gap-3">
-        <a href="#">Home</a>
-        <a href="#">Quem somos</a>
-        <a href="#">Serviços</a>
-        <a href="#">Clientes</a>
-        <a href="#">Contato</a>
         <a
-          class="bg-blue-900 text-white p-2 rounded-md hover:bg-[#f6f7f8] hover:border-2 hover:border-blue-900 hover:text-blue-900 hover:font-bold"
+          href="index.html"
+          class="hover:border-b hover:border-1 hover:border-blue-900 duration-200"
+          >Home</a
+        >
+        <a
           href="#"
+          class="hover:border-b hover:border-1 hover:border-blue-900 duration-200"
+          >Quem somos</a
+        >
+        <a
+          href="#"
+          class="hover:border-b hover:border-1 hover:border-blue-900 duration-200"
+          >Serviços</a
+        >
+        <a
+          href="#"
+          class="hover:border-b hover:border-1 hover:border-blue-900 duration-200"
+          >Clientes</a
+        >
+        <a
+          href="#"
+          class="hover:border-b hover:border-1 hover:border-blue-900 duration-200"
+          >Contato</a
+        >
+        <a
+          class="bg-blue-900 text-white p-2 rounded-md hover:bg-blue-950 hover:cursor-pointer"
+          id="btn-abrir-contato"
           >Faça seu orçamento</a
         >
       </div>
@@ -74,7 +96,8 @@
           A sua empresa de rotulagem nutricional!
         </h2>
         <button
-          class="bg-orange-500 mt-5 p-2 text-white rounded-lg hover:bg-[#f6f7f8] hover:border-2 hover:border-orange-500 hover:text-orange-500 hover:font-bold"
+          class="bg-orange-500 mt-5 p-2 text-white rounded-lg hover:bg-orange-600"
+          onclick="window.location.href = '#contato'"
         >
           Faça seu orçamento
         </button>
@@ -114,7 +137,7 @@
           class="md:w-[75%] 2xl:w-[60%] flex flex-col md:flex-row items-center justify-center gap-5"
         >
           <div
-            class="w-[250px] h-[400px] gap-5 px-5 border rounded-md border-blue-900 flex flex-col items-center justify-center"
+            class="w-[250px] h-[400px] gap-5 px-5 border rounded-md border-blue-900 flex flex-col items-center justify-center group hover:bg-gray-200 hover:scale-105 transition-transform duration-200"
           >
             <img
               class="w-[80px]"
@@ -130,7 +153,7 @@
             </p>
           </div>
           <div
-            class="w-[250px] h-[400px] gap-5 px-5 border rounded-md border-blue-900 flex flex-col items-center justify-center"
+            class="w-[250px] h-[400px] gap-5 px-5 border rounded-md border-blue-900 flex flex-col items-center justify-center group hover:bg-gray-200 hover:scale-105 transition-transform duration-200"
           >
             <img
               class="w-[80px]"
@@ -146,7 +169,7 @@
             </p>
           </div>
           <div
-            class="w-[250px] h-[400px] gap-5 px-5 border rounded-md border-blue-900 flex flex-col items-center justify-center"
+            class="w-[250px] h-[400px] gap-5 px-5 border rounded-md border-blue-900 flex flex-col items-center justify-center group hover:bg-gray-200 hover:scale-105 transition-transform duration-200"
           >
             <img
               class="w-[80px]"
@@ -166,7 +189,7 @@
           class="md:w-[75%] 2xl:w-[60%] flex flex-col md:flex-row items-center justify-center gap-5"
         >
           <div
-            class="w-[250px] h-[400px] gap-5 px-5 border rounded-md border-blue-900 flex flex-col items-center justify-center"
+            class="w-[250px] h-[400px] gap-5 px-5 border rounded-md border-blue-900 flex flex-col items-center justify-center group hover:bg-gray-200 hover:scale-105 transition-transform duration-200"
           >
             <img class="w-[80px]" src="./assets/etica 1.png" alt="Ética" />
             <h2 class="text-lg font-bold text-center text-blue-900">Ética</h2>
@@ -177,7 +200,7 @@
             </p>
           </div>
           <div
-            class="w-[250px] h-[400px] gap-5 px-5 border rounded-md border-blue-900 flex flex-col items-center justify-center"
+            class="w-[250px] h-[400px] gap-5 px-5 border rounded-md border-blue-900 flex flex-col items-center justify-center group hover:bg-gray-200 hover:scale-105 transition-transform duration-200"
           >
             <img
               class="w-[80px]"
@@ -194,7 +217,7 @@
           </div>
         </div>
         <button
-          class="bg-blue-900 mt-5 p-2 px-4 text-white rounded-lg hover:bg-[#f6f7f8] hover:border-2 hover:border-blue-900 hover:text-blue-900 hover:font-bold"
+          class="bg-blue-900 mt-5 p-2 px-4 text-white rounded-lg hover:bg-blue-950"
         >
           Saiba mais sobre o <br />
           Movimento Empresa Júnior
@@ -204,6 +227,7 @@
       <!-- Contato -->
       <section
         class="w-full h-full bg-contato bg-cover bg-center flex flex-col items-center justify-center my-8 py-8 gap-4"
+        id="contato"
       >
         <h2 class="text-orange-500 text-2xl font-bold text-center">
           Entre em contato conosco!
@@ -230,6 +254,7 @@
                 type="text"
                 id="nome"
                 name="nome"
+                placeholder="Ex: FarmAlfenas Jr."
                 required
               />
 
@@ -239,6 +264,7 @@
                 type="tel"
                 id="telefone"
                 name="telefone"
+                placeholder="Ex: (xx) 9xxxx-xxxx"
                 required
               />
 
@@ -248,6 +274,7 @@
                 type="email"
                 id="email"
                 name="email"
+                placeholder="Ex: farmalfenasjunior@gmail.com"
                 required
               />
 
@@ -257,11 +284,12 @@
                 type="text"
                 id="mensagem"
                 name="mensagem"
+                placeholder="Ex: Gostaria de saber mais"
                 required
               />
 
               <button
-                class="bg-orange-500 mt-5 p-2 text-white rounded-lg hover:bg-[#f6f7f8] hover:border-2 hover:border-orange-500 hover:text-orange-500 hover:font-bold"
+                class="bg-orange-500 mt-5 p-2 text-white rounded-lg hover:bg-orange-600"
                 type="submit"
               >
                 Enviar
@@ -270,6 +298,87 @@
           </div>
         </div>
       </section>
+
+      <!-- MODAL CONTATO -->
+
+      <div
+        class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] hidden items-center justify-center"
+        id="contato-modal"
+      >
+        <div
+          class="md:w-[75%] 2xl:w-[60%] flex flex-col md:flex-row items-center justify-center mb-5"
+        >
+          <img
+            class="w-[80%] max-w-[400px] 2xl:max-w-[500px] 2xl:max-h-[455px] rounded-t-xl md:rounded-l-xl"
+            src="./assets/equipe.png"
+            alt="Equipe"
+          />
+          <div
+            class="bg-blue-900 w-[80%] max-w-[400px] 2xl:max-w-[500px] h-[365px] 2xl:h-[455px] flex flex-col items-center justify-center rounded-b-xl md:rounded-r-xl"
+          >
+            <form
+              class="flex flex-col items-center justify-center"
+              action="#"
+              method="post"
+            >
+              <label class="text-white" for="nome">Nome Completo:</label>
+              <input
+                class="rounded-lg w-[75%] lg:w-[150%] h-8 mb-3 px-3"
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Ex: FarmAlfenas Jr."
+                required
+              />
+
+              <label class="text-white" for="telefone">Telefone:</label>
+              <input
+                class="rounded-lg w-[75%] lg:w-[150%] h-8 mb-3 px-3"
+                type="tel"
+                id="telefone"
+                name="telefone"
+                placeholder="Ex: (xx) 9xxxx-xxxx"
+                required
+              />
+
+              <label class="text-white" for="email">Email:</label>
+              <input
+                class="rounded-lg w-[75%] lg:w-[150%] h-8 mb-3 px-3"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Ex: farmalfenasjunior@gmail.com"
+                required
+              />
+
+              <label class="text-white" for="mensagem">Mensagem:</label>
+              <input
+                class="rounded-lg w-[75%] lg:w-[150%] h-8 px-3"
+                type="text"
+                id="mensagem"
+                name="mensagem"
+                placeholder="Ex: Gostaria de saber mais"
+                required
+              />
+
+              <div>
+                <button
+                  class="bg-orange-500 mt-5 p-2 text-white rounded-lg hover:bg-orange-600"
+                  type="submit"
+                >
+                  Enviar
+                </button>
+
+                <button class="mt-5 p-2 text-white" id="btn-fechar-contato">
+                  Fechar
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- FIM MODAL CONTATO -->
 
       <!-- Footer -->
       <footer
@@ -287,14 +396,22 @@
           </div>
           <div class="pb-5">
             <h2 class="text-2xl">Redes Sociais</h2>
-            <i class="fa-brands fa-facebook text-3xl pr-1"></i>
-            <i class="fa-brands fa-instagram text-3xl pr-1"></i>
-            <i class="fa-brands fa-linkedin text-3xl"></i>
+            <a href="https://www.facebook.com/FarmAlfenasJunior" target="_blank"
+              ><i class="fa-brands fa-facebook text-3xl pr-1"></i
+            ></a>
+            <a href="https://www.instagram.com/farmalfenasjr/" target="_blank"
+              ><i class="fa-brands fa-instagram text-3xl pr-1"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/company/farmalfenas-jr/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin text-3xl"></i
+            ></a>
           </div>
           <div>
             <h2 class="text-2xl">Endereço</h2>
             <span
-              ><i class="fa-regular fa-envelope"></i> Rua Gabriel Monteiro da
+              ><i class="fa-solid fa-location-dot"></i> Rua Gabriel Monteiro da
               Silva, 700 <br />Centro – Alfenas/MG, <br />Prédio S - 310.</span
             >
           </div>
@@ -315,5 +432,7 @@
         </div>
       </footer>
     </main>
+
+    <script src="/scripts.js"></script>
   </body>
 </html>
