@@ -14,6 +14,8 @@ module.exports = {
         quemSomos: "url('/assets/AboutBackground.png')",
         servicos: "url('/assets/ServicesBackground.png')",
         clientes: "url('/assets/ClientsBackground.png')",
+        contatoBgd: "url('/assets/ContactBackground.png')",
+        contatoBgdSection: "url('/assets/ContactFormularioBackground.png')",
       },
     },
   },

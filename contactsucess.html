@@ -33,7 +33,7 @@
     <meta property="og:site_name" content="FarmAlfenas Jr." />
 
     <link rel="stylesheet" href="./styles/output.css" />
-    <title>FarmAlfenas Jr - Serviços</title>
+    <title>FarmAlfenas Jr. - Sucesso!</title>
   </head>
 
   <body>
@@ -126,115 +126,28 @@
     </header>
 
     <!-- Header 2 -->
-    <section class="w-full h-[420px] bg-servicos bg-cover bg-center">
+    <section class="w-full h-[420px] bg-home bg-cover bg-center">
       <div class="w-full h-full flex flex-col items-center justify-center">
         <h1
           class="text-orange-500 text-4xl md:text-5xl lg:text-5xl font-bold pb-5 pt-[70px]"
         >
-          Nossos Serviços
+          FarmAlfenas Jr.
         </h1>
-        <h2 class="text-lg text-center text-white">
-          Temos uma variedade de serviços<br />
-          para lhe atender!
+        <h2 class="text-lg text-white text-center px-10">
+          Obrigado por entrar em contato conosco!<br />Responderemos a sua
+          mensagem o mais breve possível! 😉!
         </h2>
+        <button
+          class="bg-orange-500 mt-5 p-2 text-white rounded-lg hover:bg-orange-600"
+          onclick="window.location.href = 'index.html'"
+        >
+          Voltar à tela inicial
+        </button>
       </div>
     </section>
 
     <main>
-      <!-- Serviços -->
-      <section
-        class="w-full h-full flex flex-col items-center justify-center mt-10 mb-4 gap-4"
-      >
-        <div
-          class="md:w-[75%] 2xl:w-[60%] flex flex-col md:flex-row items-center justify-center gap-5"
-        >
-          <div class="flex flex-col items-center justify-center">
-            <h2 class="text-orange-500 text-5xl text-center font-bold pb-5">
-              Rotulagem Nutricional
-            </h2>
-            <p class="text-center text-lg px-10">
-              A Rotulagem Nutricional é um serviço essencial que visa fornecer
-              informações detalhadas sobre os valores nutricionais dos
-              alimentos. Essas informações são apresentadas de forma clara e
-              acessível nos rótulos dos produtos, permitindo que os consumidores
-              façam escolhas mais conscientes e saudáveis.
-            </p>
-            <button
-              class="bg-blue-900 mt-5 p-2 mb-5 mx-auto text-white rounded-lg hover:bg-blue-950"
-              onclick="abrirModalContato()"
-            >
-              Faça seu orçamento!
-            </button>
-          </div>
-          <img
-            class="w-[60%] max-w-[400px] m-auto pb-5"
-            src="./assets/Membro.png"
-            alt="Equipe"
-          />
-        </div>
-        <div
-          class="bg-blue-900 flex flex-col items-center justify-center py-10"
-        >
-          <div
-            class="md:w-[75%] 2xl:w-[60%] flex flex-col md:flex-row items-center justify-center gap-5"
-          >
-            <img
-              class="w-[60%] max-w-[400px] m-auto"
-              src="./assets/FotoServiçoLeft.png"
-              alt="Equipe"
-            />
-            <div class="flex flex-col items-center justify-center">
-              <h2 class="text-white text-5xl text-center font-bold pb-5">
-                Rotulagem em Cosméticos
-              </h2>
-              <p class="text-center text-white text-lg px-10">
-                A Rotulagem em Cosméticos é um serviço vital que fornece
-                informações detalha das sobre os produtos de beleza que
-                utilizamos diariamente. Essas informações são essenciais para os
-                consumidores, pois destacam os ingredientes, as instruções de
-                uso e os possíveis efeitos colaterais.
-              </p>
-              <button
-                class="bg-orange-500 mt-5 p-2 mb-5 mx-auto text-white rounded-lg hover:bg-blue-950"
-                onclick="abrirModalContato()"
-              >
-                Faça seu orçamento!
-              </button>
-            </div>
-          </div>
-        </div>
-        <div
-          class="md:w-[75%] 2xl:w-[60%] flex flex-col md:flex-row items-center justify-center gap-5 pt-5"
-        >
-          <div class="flex flex-col items-center justify-center">
-            <h2 class="text-orange-500 text-5xl text-center font-bold pb-5">
-              Marketing em Saúde
-            </h2>
-            <p class="text-center text-lg px-10">
-              O Marketing em Saúde é uma estratégia voltada para promover
-              informações sobre saúde e bem-estar. Por meio de campanhas e
-              conteúdo educacional, busca incentivar hábitos saudáveis e a busca
-              por cuidados médicos quando necessário. Essa abordagem visa
-              engajar e informar a comunidade, contribuindo para uma sociedade
-              mais saudável.
-            </p>
-            <button
-              class="bg-blue-900 mt-5 p-2 mb-5 mx-auto text-white rounded-lg hover:bg-blue-950"
-              onclick="abrirModalContato()"
-            >
-              Faça seu orçamento!
-            </button>
-          </div>
-          <img
-            class="w-[60%] max-w-[400px] m-auto"
-            src="./assets/Membro.png"
-            alt="Equipe"
-          />
-        </div>
-      </section>
-
       <!-- MODAL CONTATO -->
-
       <div
         class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] hidden items-center justify-center"
         id="contato-modal"
