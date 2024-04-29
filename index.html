@@ -287,15 +287,20 @@
           >
             <form
               class="flex flex-col items-center justify-center"
-              action="#"
-              method="post"
+              action="https://api.staticforms.xyz/submit"
+              method="POST"
             >
+              <input
+                type="hidden"
+                name="accessKey"
+                value="a1fe365c-5c1c-4407-ac82-064a3c09c6a4"
+              />
               <label class="text-white" for="nome">Nome Completo:</label>
               <input
                 class="rounded-lg w-[75%] lg:w-[150%] h-8 mb-3 px-3"
                 type="text"
                 id="nome"
-                name="nome"
+                name="name"
                 placeholder="Ex: FarmAlfenas Jr."
                 required
               />
@@ -303,9 +308,9 @@
               <label class="text-white" for="telefone">Telefone:</label>
               <input
                 class="rounded-lg w-[75%] lg:w-[150%] h-8 mb-3 px-3"
-                type="tel"
+                type="text"
                 id="telefone"
-                name="telefone"
+                name="phone"
                 placeholder="Ex: (xx) 9xxxx-xxxx"
                 required
               />
@@ -325,9 +330,15 @@
                 class="rounded-lg w-[75%] lg:w-[150%] h-8 px-3"
                 type="text"
                 id="mensagem"
-                name="mensagem"
+                name="message"
                 placeholder="Ex: Gostaria de saber mais"
                 required
+              />
+
+              <input
+                type="hidden"
+                name="redirectTo"
+                value="https://farmalfenas-jr.vercel.app/contactsucess.html"
               />
 
               <button
@@ -360,15 +371,20 @@
           >
             <form
               class="flex flex-col items-center justify-center"
-              action="#"
-              method="post"
+              action="https://api.staticforms.xyz/submit"
+              method="POST"
             >
+              <input
+                type="hidden"
+                name="accessKey"
+                value="a1fe365c-5c1c-4407-ac82-064a3c09c6a4"
+              />
               <label class="text-white" for="nome">Nome Completo:</label>
               <input
                 class="rounded-lg w-[75%] lg:w-[150%] h-8 mb-3 px-3"
                 type="text"
                 id="nome"
-                name="nome"
+                name="name"
                 placeholder="Ex: FarmAlfenas Jr."
                 required
               />
@@ -376,9 +392,9 @@
               <label class="text-white" for="telefone">Telefone:</label>
               <input
                 class="rounded-lg w-[75%] lg:w-[150%] h-8 mb-3 px-3"
-                type="tel"
+                type="text"
                 id="telefone"
-                name="telefone"
+                name="phone"
                 placeholder="Ex: (xx) 9xxxx-xxxx"
                 required
               />
@@ -398,9 +414,15 @@
                 class="rounded-lg w-[75%] lg:w-[150%] h-8 px-3"
                 type="text"
                 id="mensagem"
-                name="mensagem"
+                name="message"
                 placeholder="Ex: Gostaria de saber mais"
                 required
+              />
+
+              <input
+                type="hidden"
+                name="redirectTo"
+                value="https://farmalfenas-jr.vercel.app/contactsucess.html"
               />
 
               <div>
@@ -410,12 +432,11 @@
                 >
                   Enviar
                 </button>
-
-                <button class="mt-5 p-2 text-white" id="btn-fechar-contato">
-                  Fechar
-                </button>
               </div>
             </form>
+            <button class="p-2 text-white" id="btn-fechar-contato">
+              Fechar
+            </button>
           </div>
         </div>
       </div>
