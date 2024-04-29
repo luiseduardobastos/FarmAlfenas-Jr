@@ -33,7 +33,7 @@
     <meta property="og:site_name" content="FarmAlfenas Jr." />
 
     <link rel="stylesheet" href="./styles/output.css" />
-    <title>FarmAlfenas Jr.</title>
+    <title>FarmAlfenas Jr - Serviços</title>
   </head>
 
   <body>
@@ -131,212 +131,105 @@
         <h1
           class="text-orange-500 text-4xl md:text-5xl lg:text-5xl font-bold pb-5 pt-[70px]"
         >
-          FarmAlfenas Jr.
+          Nossos Serviços
         </h1>
-        <h2 class="text-lg text-white">
-          A sua empresa de rotulagem nutricional!
+        <h2 class="text-lg text-center text-white">
+          Temos uma variedade de serviços<br />
+          para lhe atender!
         </h2>
-        <button
-          class="bg-orange-500 mt-5 p-2 text-white rounded-lg hover:bg-orange-600"
-          onclick="window.location.href = '#contato'"
-        >
-          Faça seu orçamento
-        </button>
       </div>
     </section>
 
     <main>
       <!-- Quem Somos -->
       <section
-        class="w-full h-full flex flex-col items-center justify-center my-10 gap-4"
+        class="w-full h-full flex flex-col items-center justify-center mt-10 mb-4 gap-4"
       >
-        <h2 class="text-orange-500 text-5xl font-bold pb-5">Quem somos</h2>
         <div
-          class="md:w-[75%] 2xl:w-[60%] flex flex-col md:flex-row items-center justify-center"
+          class="md:w-[75%] 2xl:w-[60%] flex flex-col md:flex-row items-center justify-center gap-5"
         >
+          <div class="flex flex-col items-center justify-center">
+            <h2 class="text-orange-500 text-5xl text-center font-bold pb-5">
+              Rotulagem Nutricional
+            </h2>
+            <p class="text-center text-lg px-10">
+              A Rotulagem Nutricional é um serviço essencial que visa fornecer
+              informações detalhadas sobre os valores nutricionais dos
+              alimentos. Essas informações são apresentadas de forma clara e
+              acessível nos rótulos dos produtos, permitindo que os consumidores
+              façam escolhas mais conscientes e saudáveis.
+            </p>
+            <button
+              class="bg-blue-900 mt-5 p-2 mb-5 mx-auto text-white rounded-lg hover:bg-blue-950"
+              onclick="abrirModalContato()"
+            >
+              Faça seu orçamento!
+            </button>
+          </div>
           <img
             class="w-[60%] max-w-[400px] m-auto pb-5"
-            src="./assets/equipe.png"
+            src="./assets/Membro.png"
             alt="Equipe"
           />
-          <p class="text-center text-lg px-10">
-            Na FarmAlfenas Jr., cada membro é um ingrediente vital para o
-            sucesso. Combinando habilidades diversas, eles garantem precisão e
-            clareza em cada rótulo nutricional. Mas não se trata apenas de
-            trabalho sério; é também sobre cultivar um ambiente de camaradagem e
-            colaboração. Aqui, nutrimos não apenas corpos, mas também mentes.
-          </p>
-        </div>
-      </section>
-
-      <!-- Vantagens -->
-      <section
-        class="w-full h-full flex flex-col items-center justify-center my-10 gap-4"
-      >
-        <h2 class="text-blue-900 text-5xl font-bold pb-5">Vantagens</h2>
-        <div
-          class="md:w-[75%] 2xl:w-[60%] flex flex-col md:flex-row items-center justify-center gap-5"
-        >
-          <div
-            class="w-[250px] h-[400px] gap-5 px-5 border rounded-md border-blue-900 flex flex-col items-center justify-center group hover:bg-gray-200 hover:scale-105 transition-transform duration-200"
-          >
-            <img
-              class="w-[80px]"
-              src="./assets/moedas 1.png"
-              alt="Preço abaixo do mercado"
-            />
-            <h2 class="text-lg font-bold text-center text-blue-900">
-              Preço abaixo do mercado
-            </h2>
-            <p class="text-center">
-              Oferecendo qualidade sem pesar no bolso: nosso preço abaixo do
-              mercado é o segredo para tornar a saúde acessível a todos.
-            </p>
-          </div>
-          <div
-            class="w-[250px] h-[400px] gap-5 px-5 border rounded-md border-blue-900 flex flex-col items-center justify-center group hover:bg-gray-200 hover:scale-105 transition-transform duration-200"
-          >
-            <img
-              class="w-[80px]"
-              src="./assets/editar 1.png"
-              alt="Projetos personalizados"
-            />
-            <h2 class="text-lg font-bold text-center text-blue-900">
-              Projetos personalizados
-            </h2>
-            <p class="text-center">
-              Cada rótulo é uma obra-prima única: nossos projetos personalizados
-              refletem a singularidade de cada produto e marca.
-            </p>
-          </div>
-          <div
-            class="w-[250px] h-[400px] gap-5 px-5 border rounded-md border-blue-900 flex flex-col items-center justify-center group hover:bg-gray-200 hover:scale-105 transition-transform duration-200"
-          >
-            <img
-              class="w-[80px]"
-              src="./assets/conhecimento 1.png"
-              alt="Conhecimento técnico"
-            />
-            <h2 class="text-lg font-bold text-center text-blue-900">
-              Conhecimento técnico
-            </h2>
-            <p class="text-center">
-              Nossa equipe é movida por uma paixão inabalável pelo conhecimento
-              técnico, garantindo precisão e confiabilidade em cada análise.
-            </p>
-          </div>
         </div>
         <div
-          class="md:w-[75%] 2xl:w-[60%] flex flex-col md:flex-row items-center justify-center gap-5"
+          class="bg-blue-900 flex flex-col items-center justify-center py-10"
         >
           <div
-            class="w-[250px] h-[400px] gap-5 px-5 border rounded-md border-blue-900 flex flex-col items-center justify-center group hover:bg-gray-200 hover:scale-105 transition-transform duration-200"
-          >
-            <img class="w-[80px]" src="./assets/etica 1.png" alt="Ética" />
-            <h2 class="text-lg font-bold text-center text-blue-900">Ética</h2>
-            <p class="text-center">
-              Transparência e integridade estão no cerne de tudo o que fazemos:
-              nossa ética é o alicerce sobre o qual construímos relacionamentos
-              sólidos.
-            </p>
-          </div>
-          <div
-            class="w-[250px] h-[400px] gap-5 px-5 border rounded-md border-blue-900 flex flex-col items-center justify-center group hover:bg-gray-200 hover:scale-105 transition-transform duration-200"
+            class="md:w-[75%] 2xl:w-[60%] flex flex-col md:flex-row items-center justify-center gap-5"
           >
             <img
-              class="w-[80px]"
-              src="./assets/educacao 1.png"
-              alt="Investimento em educação"
+              class="w-[60%] max-w-[400px] m-auto"
+              src="./assets/FotoServiçoLeft.png"
+              alt="Equipe"
             />
-            <h2 class="text-lg font-bold text-center text-blue-900">
-              Investimento em educação
-            </h2>
-            <p class="text-center">
-              O conhecimento é a chave para um futuro mais saudável: investimos
-              não apenas em negócios, mas também na educação sobre nutrição.
-            </p>
-          </div>
-        </div>
-        <button
-          class="bg-blue-900 mt-5 p-2 px-4 text-white rounded-lg hover:bg-blue-950"
-        >
-          Saiba mais sobre o <br />
-          Movimento Empresa Júnior
-        </button>
-      </section>
-
-      <!-- Contato -->
-      <section
-        class="w-full h-full bg-contato bg-cover bg-center flex flex-col items-center justify-center my-8 py-8 gap-4"
-        id="contato"
-      >
-        <h2 class="text-orange-500 text-2xl font-bold text-center">
-          Entre em contato conosco!
-        </h2>
-        <div
-          class="md:w-[75%] 2xl:w-[60%] flex flex-col md:flex-row items-center justify-center mb-5"
-        >
-          <img
-            class="w-[80%] max-w-[400px] 2xl:max-w-[500px] 2xl:max-h-[455px] rounded-t-xl md:rounded-l-xl"
-            src="./assets/equipe.png"
-            alt="Equipe"
-          />
-          <div
-            class="bg-blue-900 w-[80%] max-w-[400px] 2xl:max-w-[500px] h-[365px] 2xl:h-[455px] flex flex-col items-center justify-center rounded-b-xl md:rounded-r-xl"
-          >
-            <form
-              class="flex flex-col items-center justify-center"
-              action="#"
-              method="post"
-            >
-              <label class="text-white" for="nome">Nome Completo:</label>
-              <input
-                class="rounded-lg w-[75%] lg:w-[150%] h-8 mb-3 px-3"
-                type="text"
-                id="nome"
-                name="nome"
-                placeholder="Ex: FarmAlfenas Jr."
-                required
-              />
-
-              <label class="text-white" for="telefone">Telefone:</label>
-              <input
-                class="rounded-lg w-[75%] lg:w-[150%] h-8 mb-3 px-3"
-                type="tel"
-                id="telefone"
-                name="telefone"
-                placeholder="Ex: (xx) 9xxxx-xxxx"
-                required
-              />
-
-              <label class="text-white" for="email">Email:</label>
-              <input
-                class="rounded-lg w-[75%] lg:w-[150%] h-8 mb-3 px-3"
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Ex: farmalfenasjunior@gmail.com"
-                required
-              />
-
-              <label class="text-white" for="mensagem">Mensagem:</label>
-              <input
-                class="rounded-lg w-[75%] lg:w-[150%] h-8 px-3"
-                type="text"
-                id="mensagem"
-                name="mensagem"
-                placeholder="Ex: Gostaria de saber mais"
-                required
-              />
-
+            <div class="flex flex-col items-center justify-center">
+              <h2 class="text-white text-5xl text-center font-bold pb-5">
+                Rotulagem em Cosméticos
+              </h2>
+              <p class="text-center text-white text-lg px-10">
+                A Rotulagem em Cosméticos é um serviço vital que fornece
+                informações detalha das sobre os produtos de beleza que
+                utilizamos diariamente. Essas informações são essenciais para os
+                consumidores, pois destacam os ingredientes, as instruções de
+                uso e os possíveis efeitos colaterais.
+              </p>
               <button
-                class="bg-orange-500 mt-5 p-2 text-white rounded-lg hover:bg-orange-600"
-                type="submit"
+                class="bg-orange-500 mt-5 p-2 mb-5 mx-auto text-white rounded-lg hover:bg-blue-950"
+                onclick="abrirModalContato()"
               >
-                Enviar
+                Faça seu orçamento!
               </button>
-            </form>
+            </div>
           </div>
+        </div>
+        <div
+          class="md:w-[75%] 2xl:w-[60%] flex flex-col md:flex-row items-center justify-center gap-5 pt-5"
+        >
+          <div class="flex flex-col items-center justify-center">
+            <h2 class="text-orange-500 text-5xl text-center font-bold pb-5">
+              Marketing em Saúde
+            </h2>
+            <p class="text-center text-lg px-10">
+              O Marketing em Saúde é uma estratégia voltada para promover
+              informações sobre saúde e bem-estar. Por meio de campanhas e
+              conteúdo educacional, busca incentivar hábitos saudáveis e a busca
+              por cuidados médicos quando necessário. Essa abordagem visa
+              engajar e informar a comunidade, contribuindo para uma sociedade
+              mais saudável.
+            </p>
+            <button
+              class="bg-blue-900 mt-5 p-2 mb-5 mx-auto text-white rounded-lg hover:bg-blue-950"
+              onclick="abrirModalContato()"
+            >
+              Faça seu orçamento!
+            </button>
+          </div>
+          <img
+            class="w-[60%] max-w-[400px] m-auto"
+            src="./assets/Membro.png"
+            alt="Equipe"
+          />
         </div>
       </section>
 
