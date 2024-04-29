@@ -2000,8 +2000,16 @@ video {
   background-color: rgb(249 115 22 / var(--tw-bg-opacity));
 }
 
+.bg-clientes {
+  background-image: url('/assets/ClientsBackground.png');
+}
+
 .bg-contato {
   background-image: url('/assets/HomeFormularioBackground.png');
+}
+
+.bg-contatoClientes {
+  background-image: url('/assets/ClientsFormularioBackground.png');
 }
 
 .bg-home {
@@ -2010,6 +2018,14 @@ video {
 
 .bg-proposito {
   background-image: url('/assets/proposito.png');
+}
+
+.bg-quemSomos {
+  background-image: url('/assets/AboutBackground.png');
+}
+
+.bg-servicos {
+  background-image: url('/assets/ServicesBackground.png');
 }
 
 .decoration-slice {
@@ -2142,10 +2158,6 @@ video {
   padding: 0.75rem;
 }
 
-.p-\[100px\] {
-  padding: 100px;
-}
-
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -2166,6 +2178,11 @@ video {
   padding-right: 1.25rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -2181,11 +2198,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -2198,28 +2210,16 @@ video {
   padding-right: 0.25rem;
 }
 
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
 .pt-\[30px\] {
   padding-top: 30px;
 }
 
 .pt-\[70px\] {
   padding-top: 70px;
-}
-
-.pl-\[100px\] {
-  padding-left: 100px;
-}
-
-.pt-5 {
-  padding-top: 1.25rem;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
-.pt-8 {
-  padding-top: 2rem;
 }
 
 .text-left {
