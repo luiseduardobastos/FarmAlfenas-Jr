@@ -945,6 +945,10 @@ video {
   width: 100%;
 }
 
+.max-w-\[380px\] {
+  max-width: 380px;
+}
+
 .max-w-\[400px\] {
   max-width: 400px;
 }
@@ -2905,6 +2909,10 @@ body {
 
   .md\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .md\:max-w-\[545px\] {
+    max-width: 545px;
   }
 
   .md\:flex-row {
