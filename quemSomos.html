@@ -116,11 +116,12 @@
           class="hover:border-b hover:border-1 hover:border-blue-900 duration-200"
           >Contato</a
         >
-        <a
+        <button
           class="bg-blue-900 text-white p-2 rounded-md hover:bg-blue-950 hover:cursor-pointer"
-          id="btn-abrir-contato"
-          >Faça seu orçamento</a
+          onclick="abrirModalContato()"
         >
+          Faça seu orçamento
+        </button>
       </div>
     </header>
 
@@ -196,14 +197,14 @@
           </h2>
           <button
             class="bg-blue-900 mt-5 p-2 mx-auto text-white rounded-lg hover:bg-blue-950"
-            onclick="window.location.href = '#'"
+            onclick="abrirModalContato()"
           >
             Peça já seu orçamento!
           </button>
         </div>
       </section>
 
-      <!-- Vantagens -->
+      <!-- Missão, Visão e Valores -->
       <section
         class="w-full h-full flex flex-col items-center justify-center my-10 gap-4"
       >
@@ -259,6 +260,110 @@
               que um time que joga junto, olha através do topo, vestimos a
               camisa e mantemos sempre o espírito de lobo-guará
             </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Propósito -->
+      <section
+        class="w-full bg-proposito flex flex-col items-center justify-center gap-5 p-12 py-12"
+      >
+        <h1 class="text-orange-500 text-4xl md:text-5xl lg:text-5xl font-bold">
+          Nosso Propósito!
+        </h1>
+        <h2 class="text-lg text-white text-center md:w-[60%]">
+          Na FarmAlfenas Júnior, nosso propósito é fornecer consultoria
+          farmacêutica de qualidade, impulsionar o crescimento da empresa e
+          formar profissionais capacitados, com orientação da UNIFAL-MG.
+          Trabalhamos voluntariamente, investindo em capacitação e recursos para
+          projetos, visando ao avanço do setor farmacêutico e guiados por
+          valores de trabalho em equipe e visão de futuro.
+        </h2>
+      </section>
+
+      <!-- MEJ -->
+      <section
+        class="w-full h-full flex flex-col items-center justify-center mt-10 mb-10 gap-4"
+      >
+        <div
+          class="md:w-[70%] 2xl:w-[60%] flex flex-col md:flex-row items-center justify-center"
+        >
+          <img
+            class="w-[60%] md:w-[80%] max-w-[400px] m-auto pb-5"
+            src="./assets/brasil jr.webp"
+            alt="MEJ"
+          />
+          <div class="px-10 md:pl-10">
+            <h2 class="text-black text-2xl text-center font-bold pb-5">
+              Movimento <span class="text-orange-500">Empresa Júnior</span>
+            </h2>
+            <p class="text-center text-lg">
+              O movimento Empresa Júnior, presente em diversas instituições de
+              ensino, é composto por estudantes universitários que aplicam seus
+              conhecimentos teóricos na prática empresarial. Por meio de
+              projetos reais e orientação de professores e profissionais
+              experientes, os membros das empresas juniores desenvolvem
+              habilidades, promovem uma cultura empreendedora e se preparam para
+              os desafios do mercado de trabalho, contribuindo assim para o
+              crescimento pessoal, profissional e para o desenvolvimento
+              econômico e social das comunidades.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Time -->
+      <section>
+        <h2 class="text-blue-900 text-center text-5xl font-bold pb-5">
+          Conheça nosso time!
+        </h2>
+        <div
+          class="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-10"
+        >
+          <div>
+            <h2 class="text-orange-500 text-2xl text-center font-bold pb-5">
+              Dept. 1
+            </h2>
+            <img class="w-[250px]" src="/assets/Membro.png" alt="Membro" />
+            <h2 class="text-black text-2xl text-center font-bold p-2">
+              Fulano de Tal
+            </h2>
+            <p class="text-center text-lg">Cargo - Dept 1</p>
+            <div class="text-center mt-3">
+              <i class="fa-solid fa-circle-dot pr-1"></i>
+              <i class="fa-regular fa-circle-dot pr-1"></i>
+              <i class="fa-regular fa-circle-dot"></i>
+            </div>
+          </div>
+          <div>
+            <h2 class="text-orange-500 text-2xl text-center font-bold pb-5">
+              Dept. 2
+            </h2>
+            <img class="w-[250px]" src="/assets/Membro.png" alt="Membro" />
+            <h2 class="text-black text-2xl text-center font-bold p-2">
+              Fulano de Tal
+            </h2>
+            <p class="text-center text-lg">Cargo - Dept 2</p>
+            <div class="text-center mt-3">
+              <i class="fa-solid fa-circle-dot pr-1"></i>
+              <i class="fa-regular fa-circle-dot pr-1"></i>
+              <i class="fa-regular fa-circle-dot"></i>
+            </div>
+          </div>
+          <div>
+            <h2 class="text-orange-500 text-2xl text-center font-bold pb-5">
+              Dept. 3
+            </h2>
+            <img class="w-[250px]" src="/assets/Membro.png" alt="Membro" />
+            <h2 class="text-black text-2xl text-center font-bold p-2">
+              Fulano de Tal
+            </h2>
+            <p class="text-center text-lg">Cargo - Dept 3</p>
+            <div class="text-center mt-3">
+              <i class="fa-solid fa-circle-dot pr-1"></i>
+              <i class="fa-regular fa-circle-dot pr-1"></i>
+              <i class="fa-regular fa-circle-dot"></i>
+            </div>
           </div>
         </div>
       </section>

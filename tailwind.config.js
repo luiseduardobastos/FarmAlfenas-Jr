@@ -9,6 +9,7 @@ module.exports = {
       backgroundImage: {
         home: "url('/assets/HomeBackground.png')",
         contato: "url('/assets/HomeFormularioBackground.png')",
+        proposito: "url('/assets/proposito.png')",
       },
     },
   },

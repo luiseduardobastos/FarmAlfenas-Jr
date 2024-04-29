@@ -33,6 +33,10 @@ btnAbrirContato.addEventListener("click", function () {
   contatoModal.style.display = "flex";
 });
 
+function abrirModalContato() {
+  contatoModal.style.display = "flex";
+}
+
 // Fechar o modal do contato quando clicar fora
 contatoModal.addEventListener("click", function (event) {
   if (event.target === contatoModal) {
